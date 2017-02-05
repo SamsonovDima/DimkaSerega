@@ -4,45 +4,88 @@ body{
 .header {
     display: block;
     width: 100%;
-    height: 40px;
-    background-color: dodgerblue;
-    text-align: center;
-    padding-top: 20px;
+    height: 72px;
+    background-color: #74B2E2;
     color: floralwhite;
-    position: absolute;
+    position: fixed;
+    box-shadow: 0 0 60px 0px grey;
 }
+.tempruary{
+    display: block;
+    font-family: Roboto;
+    text-align: center;
+    line-height: 72px;
+    color: #ffffff;
+    
+}
+
 .cover-conteiner{
     display: block;
     width: 100%;
-    height: 700px;
+    height: 768px;
     background-image: url(bg.jpg);
     text-align: center;
-    color: aliceblue;
+    background-size: cover;
+
+    
 }
 .page-title{
     display: block;
-    padding-top: 200px;
-    font-size: 60px;
+    padding-top: 339px;
+    font-family: Roboto;
+    font-size: 72px;
+    font-weight: 500;
+    color: #ffffff;
+    line-height: 85px;
 }
 .pagr-dsc{
     display: block;
     padding-top: 20px;
-    font-size: 20px;
+    font-size: 16px;
+    font-family: Roboto;
+    line-height: 21px;
+    letter-spacing: 5px;
+    color: #ffffff;
 }
 .img{
     display: block;
     padding-top: 70px;
     text-align: center;
 }
+.first-title{
+    display: block;
+    font-family: Roboto;
+    font-size: 24px;
+    text-align: center;
+    line-height: 32px;
+    color: #424242;
+}
 .first-text{
     display: block;
+    font-size: 14px;
+    line-height: 19px;
+    font-family: Roboto;
+    padding-top: 35px;
     margin-left: 100px;
     margin-right: 100px;
     margin-bottom: 20px;
 }
+.after-title{
+    display: block;
+    font-family: Roboto;
+    font-size: 24px;
+    text-align: center;
+    line-height: 32px;
+    padding-top: 45px;
+    color: #424242;
+}
 .after-text{
     display: block;
-    padding-top: 70px;
+    padding-top: 32px;
+    font-family: Roboto;
+    font-size: 14px;
+    text-align: center;
+    line-height: 19px;
     margin-left: 100px;
     margin-right: 100px;
 }
@@ -50,8 +93,9 @@ body{
     display: block;
     width: 10%;
     height: 50px;
-    background-color:cornflowerblue;
-    margin-top: 30px;
+    text-align: center;
+    background-color: #74B2E2;
+    margin-top: 40px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 30px;
@@ -59,5 +103,20 @@ body{
 .like-text{
     display: block;
     text-align: center;
-    padding-top: 15px;
+    padding-top: 20px;
+}
+a:hover{
+    background-color: cyan;
+    color:deeppink;
+}
+a:link{
+    display: block;
+    padding: inherit;
+    height: 30px;
+    width: auto;
+    text-align: center;
+    margin-top: -20px;
+    
+    
+    
 }
